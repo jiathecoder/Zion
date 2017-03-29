@@ -1,0 +1,321 @@
+<style>
+	
+		span.stars, span.stars span {
+	    display: block;
+	    background: url(stars.png) 0 -16px repeat-x;
+	    width: 80px;
+	    height: 16px;
+	}
+
+		span.stars span {
+   		 background-position: 0 0;
+	}
+
+	<style>	
+		.container-fluid {
+			height: 100%;
+			width: 100%;		
+  	 	 	
+		}
+		.container-fluid:before {
+			/*padding-top:200px;*/
+			margin-left:-15px;
+			margin-top:-20px;
+ 			height:100%; 
+ 			width:100%;			
+			background-size:   100%;                    
+    		background-repeat: no-repeat;
+  	  		background-position: center  center ;	 
+			background-image: url(../../assets/images/A.jpg);		
+  	 	 	opacity:.9;
+  	 	 	z-index: -1; 
+  	 	 	position: absolute;	 
+  	 	 	 display: block; 
+		}
+
+	#bar {
+			height : 100px;
+			width : 100%;
+		/*	background-color: #E36F5F;*/
+			/*background-color:#B24E36*/
+			/*background-color:#D13E19*/
+			/*background-color:#B0462B;*/
+			/*background: linear-gradient(-270deg,#E08566,#CA785C,#E08566);*/
+			/*opacity: .4;
+			background: linear-gradient(-270deg, #B0462B,#B24E36,#E36F5F);
+			/*opacity:.4;*/
+			border-radius:5px;*/
+			
+
+		}
+
+
+	#head{
+		height:100px;
+		width:100%;
+
+		/*overflow: hidden;*/
+	/*	background-color: blue;*/
+	}
+	#head-left{
+		display:inline-block;
+		width:40%;
+		vertical-align: top;
+		/*text-align: right;*/
+		padding-left: 40px;
+		padding-top: 2px;
+	}
+	#head-right{
+		height:100px;
+		width:60%;		
+		margin-left: 20%;
+		vertical-align: top;
+		text-align: right;
+		padding-right: 40px;
+		padding-top: 15px;  
+		vertical-align:top;
+		display: inline-block;	
+		
+	}
+
+	
+
+	.welcome {
+		font-family: Comic Sans MS;
+		font-size:1.2em;
+		text-align: right;
+		padding-right:10%;
+		font-weight: bold;
+		color:#990000;
+	}
+
+
+
+	#main{
+		border :2px solid brown;
+		border-radius: 15px;
+		margin :20px;
+		width:60%;
+		text-align: left;
+		font-family: Comic Sans MS;	
+		list-style-type: none;
+		display: inline-block;
+		vertical-align: top;
+		padding: 1%
+
+	}
+	#main-right{
+		border :2px solid brown;
+		border-radius: 15px;
+		margin :20px;
+		width:30%;
+		text-align: left;
+		font-family: Comic Sans MS;
+		display: inline-block;
+		list-style-type: none;
+		vertical-align: top;
+		padding: 1%;
+
+
+	}
+/*	#main,h3{
+		font-family: Comic Sans MS;
+		font-weight: bold*/
+
+	}
+
+	#head-right ul{
+		padding :5px;
+		margin :0;
+		list-style-type: none;
+			opacity: 100%;     
+	}
+
+	#head-right ul li{
+		display:inline;
+		padding :1px;
+		margin :1px;	
+		list-style-type: none;
+		
+	}
+
+	#head-right ul li a{
+		text-decoration: none;
+		padding-right :  1em;
+		font-size: 1em;
+		color: #990000;
+		border-right: 1px solid grey;		
+		list-style-type: none;
+		font-family: Comic Sans MS;		
+		text-align: right;
+			     
+	}
+
+	
+
+	.container-fluid:before {
+			/*padding-top:200px;*/
+			margin-left:-15px;
+			margin-top:-20px;
+ 			height:100%; 
+ 			width:100%;			
+			background-size:   100%;                    
+    		background-repeat: no-repeat;
+  	  		background-position: center  center  fixed;	 
+			background-image: url(../../assets/images/A.jpg);		
+  	 	 	opacity:.9;
+  	 	 	z-index: -1; 
+  	 	 	position: absolute;	 
+  	 	 	 /*display: block; */
+
+		}
+
+		
+		#main,h3{
+	/*	font-weight: bold;*/
+		font-family: Comic Sans MS;
+		font-size: 1.3em;
+		padding-right: 2em
+	}
+
+	#head{
+		height:100px;
+		width:100%;
+	/*	background-color: blue;*/
+	}
+	
+		
+		#head-left{
+		display:inline-block;
+		width:40%;
+		vertical-align: top;
+		/*text-align: right;*/
+		padding-left: 40px;
+		padding-top: 2px;
+	}
+
+	/*#main{
+		background-image: url(../assets/images/main.png);
+		height:70%;
+		width:50%;
+		border-radius: 5px;
+		border:1px solid black ;
+		margin-left: 10px;
+		padding :15px;
+		
+}*/
+
+	
+	
+
+
+	#main{
+		border :5px solid brown;
+		border-radius: 15px;
+		margin :2%;
+		width:50%;
+		text-align: left;
+		padding:10px;		
+
+		vertical-align: top;
+		display: inline-block;
+		 background-color: black;
+		z-index: 1;
+		opacity :.7;
+	}
+
+	
+.title {
+	font-family: Comic Sans MS;
+		font-size:.8em;
+		/*font-weight: bold;*/
+		color: white;
+		vertical-align: top
+
+}
+
+
+h3 {
+	font-family: Comic Sans MS;
+	font-size:1.5em;
+	font-weight: bold;
+	padding-left: 4%;
+	margin-bottom: -1%
+}
+
+ .info p {
+	font-family: Comic Sans MS;
+		font-size:.6em;		
+		color: white;
+		margin-top: -5%
+
+	}
+	.form-signin {
+		  max-width: 530px;
+		  padding: 15px;		  
+		  margin:auto;
+		}
+
+		.form-signin .form-signin-heading,.form-signin .checkbox .btn {
+  			margin-bottom: 10px;
+  			color:white;
+  			font-family: Comic Sans MS;
+  			font-size:1.5em;
+
+		}
+		
+		.form-signin .form-control {
+  			position: relative;
+  			height: auto;  
+  			padding: 10px;
+  			font-size: 16px;
+		}
+
+	.form-signin input[type="text"] {
+ 			 margin-bottom: 10px;
+ 			 width : 300px;
+ 			 height :30px;
+ 			 border-top-left-radius: 5;
+ 			 border-top-right-radius: 5;
+ 			 display: inline-block;
+ 			 vertical-align: left;
+		}	
+
+		.form-signin select[type="text"] {
+ 			 margin-bottom: 10px;
+ 			 width : 300px;
+ 			 height :30px;
+ 			 border-top-left-radius: 5;
+ 			 border-top-right-radius: 5;
+ 			 display: inline-block;
+ 			 vertical-align: left;
+		}	
+		placeholder {
+			font-family: Comic Sans MS;
+		font-size:.6em;		
+			
+
+		}
+
+		ul li{
+			list-style-type: none
+		}
+
+		li label, li input {
+  			display: inline-block;
+  			
+		}
+		li label {
+ 			 min-width: 80px;
+		}
+
+		img{
+		text-align: left;
+		vertical-align: top;
+		display: inline-block;
+		height: 50px;
+		width: 250px;
+	}
+
+	
+	</style>
